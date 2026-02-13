@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  
+<!--mobile checker-->  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.19/ua-parser.min.js"></script>
+
+<script>
+    var ua = new UAParser();
+    var result = ua.getResult();
+
+    if (result.device.type === "mobile" || result.device.type === "tablet") {
+        window.location.href = "https://matchstickcandlegames.neocities.org/incompatible";
+    }
+</script>
+ <script>
+  const dpr = window.devicePixelRatio || 1;
+
+  if (dpr >= 1.75) {
+    document.body.style.zoom = "0.57";
+  } else if (dpr >= 1.5) {
+    document.body.style.zoom = "0.67";
+  } else if (dpr >= 1.25) {
+    document.body.style.zoom = "0.8";
+  }
+</script>
+  
+    <style>
+    body{
+      margin:0;
+      background:black;
+      color:white;
+      font-family:Georgia;
+      
+      a:link {
+        color: aqua;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: purple;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    }
+    
+    #litText{
+      width:500px;
+      height:500px;
+      position:absolute;
+      top:60px;
+      left: 40%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+    #litText img {
+      width: 100%;
+      height: auto;
+    }
+    
+    #logo{
+      position:absolute;
+      top:20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      margin-top: -125px;
+    }
+    
+    #gamestab {
+      background:#121212;
+      color:white;
+      width:800px;
+      height:300px;
+      margin:auto;
+      border:red ridge 10px;
+      padding:30px;
+      position:absolute;
+      top:1000px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 11;
+    }
+    
+    #forumNotif{
+      padding:10px;
+      margin-top:1000px;
+      margin-left:30px;
+      margin-bottom:30px;
+      background:#121212;
+      border:red ridge 10px;
+      font-size:20px;
+      width:300px;
+      height:300px;
+      z-index:11; 
+    }
+    
+    #musicBox{
+      padding:10px;
+      margin-top:10px;
+      margin-left:30px;
+      margin-bottom:30px;
+      background:#121212;
+      border:red ridge 10px;
+      font-size:20px;
+      width:300px;
+      height:200px;
+      z-index:11; 
+    }
+    
+    #vignette{
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      opacity: 0.3;
+      pointer-events: none; 
+    }
+    </style>
+    
+    <div id = "litText">
+      <center><img src="https://matchstickcandlegames.neocities.org/litCandText.png"></center>
+    </div>
+    <div id = "logo">
+      <center><img src="https://matchstickcandlegames.neocities.org/matchsticklogoANIM.png"></center>
+    </div>
+    <div id = "vignette">
+      <center><img src="https://matchstickcandlegames.neocities.org/redVignette.png"></center>
+    </div>
+    
+    <div id = "gamestab">
+      <center><h1>MY GAMES.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ARE IMMACULATE!</h1></center> 
+      <p>would youattempt to try some ?&nbsp;&nbsp;&nbsp;today 
+      <br>freshly &nbsp;home baked.&nbsp;&nbsp;with my&nbsp;&nbsp;&nbsp;&nbsp;love. it &nbsp;comes to you</p>
+      <img src="https://matchstickcandlegames.neocities.org/0180-happybirthday.gif">
+      <img src="https://matchstickcandlegames.neocities.org/0024-red.gif">
+      <img src="https://matchstickcandlegames.neocities.org/0104-redsnowflake.gif">
+      <img src="https://matchstickcandlegames.neocities.org/0061-pinkcomputer.gif">
+      <br>
+      <br><a href="https://matchstickcandlegames.neocities.org/visionsofshelf">DOWNLOAD.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;visions of shelf, game</a>
+      <br><a href="https://matchstickcandlegames.neocities.org/scarytunnel">DOWNLOAD.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tunnelgame</a>
+      <br><a href="https://matchstickcandlegames.neocities.org/FINDME">DOWNLOAD.&nbsp;&nbsp;&nbsp;FINDMEGAME</a>
+      <br><a href="https://matchstickcandlegames.neocities.org/friday">DOWNLOAD.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;friday</a>
+      <br>more,     games come soon.
+    </div>
+    
+    <div id = "forumNotif">
+      <h2>my new forum&nbsp;&nbsp;!</h2>
+      <p> join my&nbsp;,&nbsp; &nbsp;&nbsp;forum! new people &nbsp;always allow.
+      <br>if you post lot&nbsp;,&nbsp;&nbsp;become big candle!. &nbsp;&nbsp;access to cool exclusive &nbsp;chat.
+      <br><a href="https://matchstickcandlegames.createaforum.com/index.php">forum.  linked</a></p>
+      <a href="https://x.com/matchcandlgames"><img src="https://matchstickcandlegames.neocities.org/twittericon-20.png" align="left"></a>
+      <a href="https://www.youtube.com/@matchstickcandlegames"><img src="https://matchstickcandlegames.neocities.org/yticon.png" align="left"></a>
+    </div>
+    
+    <div id = "musicBox">
+      <h3>video. my games,&nbsp;&nbsp;contain musical artifacts </h3>
+      <p> music contained,&nbsp;&nbsp;&nbsp;&nbsp;down below!
+      <br><a href="https://matchstickcandlegames.neocities.org/music">music,  &nbsp;&nbsp;&nbsp;click</a></p>
+    </div>
+  
+    
+    <audio autoplay loop id="bgAudio">
+      <source src="https://files.catbox.moe/mbw398.ogg" type="audio/ogg">
+      <source src="https://files.catbox.moe/nc7wbw.mp3" type="audio/mpeg">
+    </audio>
+
+    
+    
+    
+    
+   
+
+  </body>
+</html>

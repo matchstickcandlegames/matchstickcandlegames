@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  </head>
+  <body>
+
+<!--mobile checker-->  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.19/ua-parser.min.js"></script>
+
+<script>
+    var ua = new UAParser();
+    var result = ua.getResult();
+
+    if (result.device.type === "mobile" || result.device.type === "tablet") {
+        window.location.href = "https://matchstickcandlegames.neocities.org/incompatible";
+    }
+</script>
+<script>
+eval((function(){
+  const _ = [
+    119,105,110,100,111,119,46,111,110,108,111,97,100,61,102,117,110,99,116,105,111,110,40,41,123,
+    99,111,110,115,116,32,102,61,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,
+    110,116,66,121,73,100,40,39,99,111,100,101,70,111,114,109,39,41,59,
+    102,46,97,100,100,69,118,101,110,116,76,105,115,116,101,110,101,114,40,39,115,117,98,109,105,116,
+    39,44,102,117,110,99,116,105,111,110,40,101,41,123,
+    101,46,112,114,101,118,101,110,116,68,101,102,97,117,108,116,40,41,59,
+    99,111,110,115,116,32,99,61,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,
+    110,116,66,121,73,100,40,39,99,111,100,101,39,41,46,118,97,108,117,101,46,116,114,105,109,40,41,59,
+    105,102,40,99,61,61,61,39,56,54,55,32,49,48,53,32,49,50,56,39,41,123,
+    119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,104,114,101,102,61,
+    39,104,116,116,112,115,58,47,47,109,97,116,99,104,115,116,105,99,107,99,97,110,100,108,101,103,97,109,
+    101,115,46,110,101,111,99,105,116,105,101,115,46,111,114,103,47,102,105,110,100,109,101,50,45,116,104,
+    101,115,101,113,117,101,108,39,59,
+    125,101,108,115,101,123,97,108,101,114,116,40,39,99,111,100,101,32,44,32,32,32,98,97,100,39,41,59,125,125,41,59,
+    105,102,40,33,100,111,99,117,109,101,110,116,46,114,101,102,101,114,114,101,114,46,105,110,99,108,117,100,101,
+    115,40,39,47,112,117,116,111,117,116,116,104,101,102,108,97,109,101,39,41,41,123,
+    119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,114,101,112,108,97,99,101,40,39,47,112,117,116,111,
+    117,116,116,104,101,102,108,97,109,101,39,41,59,125,125
+  ];
+  return String.fromCharCode.apply(null,_);
+})());
+</script>
+</script>
+
+ <style>
+    
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.01); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes pcMove {
+    0% { transform: translateX(-50%) translateY(-10px); }
+    50% { transform: translateX(-50%) translateY(10px); }
+    100% { transform: translateX(-50%) translateY(-10px); }
+  }
+
+  #meat1 img {
+    animation: pulse 1.3s infinite ease-in-out;
+  }
+  #meat2 img {
+    animation: pulse 2s infinite ease-in-out;
+  }
+  #meat3 img {
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  #meat4 img {
+    animation: pulse 1.9s infinite ease-in-out;
+  }
+
+    body{
+      margin:0;
+      background:black;
+      color:white;
+      font-family:Georgia;
+      overflow: hidden;
+    }
+    #scene {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+      
+    #DEFAULTDIV{
+     position:absolute;
+      top:20px;
+      left: 50%;
+      transform: translateX(-55%);
+      z-index: 0;
+      margin-top: 350px;
+      animation: pcMove 5.5s infinite ease-in-out;
+
+    }
+    
+    #computer{
+      position:absolute;
+      top:20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      margin-top: 200px;
+      pointer-events: none; 
+      animation: pcMove 5s infinite ease-in-out;
+
+    }
+    
+    
+    #meat1{
+      position: absolute;
+      top: -500px;
+      left: -1300px;
+      
+      z-index: 5;
+    }
+    #meat1 img {
+      width: 1500px;
+      height: 1500px;
+    }
+    
+    #meat2{
+      position: absolute;
+      top: -500px;
+      left: -150px;
+      z-index: 6;
+    }
+    #meat2 img {
+      width: 1500px;
+      height: 1500px;
+    }
+    
+    
+    #meat3{
+      position: absolute;
+      top: 100px;
+      left: -1300px;
+      z-index: 7;
+    }
+    #meat3 img {
+      width: 1500px;
+      height: 1500px;
+    }
+    
+    
+    #meat4{
+      position: absolute;
+      top: 100px;
+      left: 0px;
+      z-index: 8;
+    }
+    #meat4 img {
+      width: 1500px;
+      height: 1500px;
+    }
+    
+    
+    
+    
+    </style>
+    <div id ="scene">
+    <div id = "DEFAULTDIV">  
+      <form id="codeForm">
+      <label for="code">input code:</label>
+      <input type="text" id="code" name="code"><br><br>
+      <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+    <div id = "meat1">
+    <img src="https://matchstickcandlegames.neocities.org/meat1edited.png">
+    </div>
+    <div id = "meat2">
+    <img src="https://matchstickcandlegames.neocities.org/meat2edited.png">
+    </div>
+    <div id = "meat3">
+    <img src="https://matchstickcandlegames.neocities.org/meat3edited.png">
+    </div>
+    <div id = "meat4">
+    <img src="https://matchstickcandlegames.neocities.org/meat4edited.png">
+    </div>
+    <div id = "computer">
+    <center><img src="https://matchstickcandlegames.neocities.org/computerRed.png"></center>
+    </div>
+    </div>
+    
+    
+    <audio autoplay loop id="bgAudio">
+      <source src="https://files.catbox.moe/h8lhr0.ogg" type="audio/ogg">
+      <source src="https://files.catbox.moe/qiqyej.mp3" type="audio/mpeg">
+    </audio>
+    
+    <title>f12</title>
+<script>
+      const dpr = window.devicePixelRatio || 1;
+      if (dpr >= 1.75) {
+        document.getElementById("scene").style.transform += " scale(0.57)";
+      } else if (dpr >= 1.5) {
+        document.getElementById("scene").style.transform += " scale(0.67)";
+      } else if (dpr >= 1.25) {
+        document.getElementById("scene").style.transform += " scale(0.8)";
+      }
+    </script>
+
+  </body>
+</html>

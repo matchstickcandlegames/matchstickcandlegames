@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+<!--mobile checker-->  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.19/ua-parser.min.js"></script>
+
+<script>
+    var ua = new UAParser();
+    var result = ua.getResult();
+
+    if (result.device.type === "mobile" || result.device.type === "tablet") {
+        window.location.href = "https://matchstickcandlegames.neocities.org/incompatible";
+    }
+</script>
+
+ <style>
+    body{
+      margin:0;
+      background:black;
+      color:white;
+      font-family:Georgia;
+      font-size:100;
+    }
+    #DEFAULTDIV
+    {
+      font-size:500px;
+    }
+    
+    </style>
+
+    <div id = "DEFAULTDIV">
+      <center>&nbsp;wrong.</center>
+    </div>
+
+<script>
+  const dpr = window.devicePixelRatio || 1;
+
+  if (dpr >= 1.75) {
+    document.body.style.zoom = "0.57";
+  } else if (dpr >= 1.5) {
+    document.body.style.zoom = "0.67";
+  } else if (dpr >= 1.25) {
+    document.body.style.zoom = "0.8";
+  }
+</script>
+
+  </body>
+</html>
