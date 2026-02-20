@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+<!--mobile checker-->  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.19/ua-parser.min.js"></script>
+
+<script>
+    var ua = new UAParser();
+    var result = ua.getResult();
+
+    if (result.device.type === "mobile" || result.device.type === "tablet") {
+        window.location.href = "https://matchstickcandlegames.com/incompatible";
+    }
+</script>
+
+ <style>
+    body{
+      margin:0;
+      background:black;
+      color:white;
+      font-family:Georgia;
+    }
+    </style>
+
+    <div id = "DEFAULTDIV">
+      <center><br><a href="https://matchstickcandlegames.com/SILENCE.zip">we made a game for you.</a></center>
+    </div>
+
+  </body>
+</html>
