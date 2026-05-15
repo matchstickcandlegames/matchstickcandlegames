@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+<!--mobile checker-->  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.19/ua-parser.min.js"></script>
+
+<script>
+    var ua = new UAParser();
+    var result = ua.getResult();
+
+    if (result.device.type === "mobile" || result.device.type === "tablet") {
+        window.location.href = "https://matchstickcandlegames.com/incompatible";
+    }
+</script>
+
+ <style>
+    body{
+      margin:0;
+      background:black;
+      color:white;
+      font-family:Georgia;
+    }
+    </style>
+
+    <div id = "DEFAULTDIV">
+      <center><p>it is about time you find out what we have really done.
+        <br>horrible things. 
+        <br>this our confession to you all.
+        <br>we are truly sorry.  
+        <br>these games we have been posting, they have been censored. for risk of them being taken down.
+        <br>here we have hidden them, away. we shall never face concequence for our wrongdoings
+        <br>they will never find the evidence. we will stay free. and if we do not, we have backup plans.
+        <br>do not worry. matchstickcandlegames was, and will always be, a project to express ourselves.
+        <br>you will all forgive us for the sins we have committed. and forget them all too. for the games are more important than human life.
+        <br>matchstickcandlegames will continue to live on, but in secret. the police will never find us. we shall post my games on that old website of mine instead.
+        <br>if you have been paying attention. you should know which one we are talking about.
+        <br>and if anyone is watching us, who should not be, or does not want to see what we have done. 
+        <br>then goodbye. 
+      </p></center>
+    </div>
+
+<script>
+  const dpr = window.devicePixelRatio || 1;
+
+  if (dpr >= 1.75) {
+    document.body.style.zoom = "0.57";
+  } else if (dpr >= 1.5) {
+    document.body.style.zoom = "0.67";
+  } else if (dpr >= 1.25) {
+    document.body.style.zoom = "0.8";
+  }
+</script>
+
+  </body>
+</html>
